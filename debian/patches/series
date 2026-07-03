@@ -16,3 +16,5 @@ CVE-2022-1271-4.patch
 CVE-2022-1271-5.patch
 CVE-2022-1271-6.patch
 0001-bug-47715-PATCH-gzip.c-use-a-more-portable-alignment.patch
+CVE-2026-41991.patch
+CVE-2026-41992.patch

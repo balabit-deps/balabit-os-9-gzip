@@ -1,3 +1,16 @@
+gzip (1.10-4ubuntu4.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: insecure temp file handling
+    - debian/patches/CVE-2026-41991.patch: gzexe: use -C if lacking mktemp in
+      gzexe.in, zdiff.in.
+    - CVE-2026-41991
+  * SECURITY UPDATE: overflow in LZH decompression logic
+    - debian/patches/CVE-2026-41992.patch: gzip: don’t mishandle .lzh after .Z
+      in unlzh.c.
+    - CVE-2026-41992
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 03 Jul 2026 07:55:53 -0400
+
 gzip (1.10-4ubuntu4.1) jammy; urgency=medium
 
   * Cherry-pick upstream patch to use more portable alignment to resolve
